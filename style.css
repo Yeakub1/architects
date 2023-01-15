@@ -280,7 +280,9 @@ Headet text box Section
     height: 15rem;
     width: 15rem;
     text-align: center;
-    border: 2px solid var(--warning-color);
+    border-radius: .8rem;
+    transition: all 2s;
+    border: 2px solid var(--warning-color);   
 }
 
 .discption-item .item img {
@@ -288,9 +290,9 @@ Headet text box Section
     transition: width 2s, height 2s, transform 2s;
 }
 
-.discption-item .item img:hover {
-    transform: rotate(360deg);
-    cursor: pointer;
+.item:hover {
+    transform: rotate(360deg);  
+    cursor: pointer; 
 }
 
 .item p {
